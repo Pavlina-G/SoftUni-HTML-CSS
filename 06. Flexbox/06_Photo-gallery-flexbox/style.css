@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+body {
+    display: flex;
+}
+
+.gallery {
+    display: flex;
+    width: 100vw;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+li img{
+    display: flex;
+    
+    
+}
+
+.gallery img {
+    width: 200px;
+    height: 300px;
+    border: 6px solid black;
+    object-fit: contain;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0.2);
+}
