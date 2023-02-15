@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 20px 40px;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+ul {
+    list-style: square;
+}
+blockquote {
+    font-family: Georgia, serif;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+.page>header {
+   border-bottom: 1px solid black;
+   width: 100vw;
+}
+
+.page main section {
+    flex-direction: column;
+    max-width: 65vw;
+    margin-right: 20px;
+}
+
+.page aside {
+    width: 20vw;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+h1, h2, h3{
+    font-family: Georgia, serif;
+}
+
+img {
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: 2px rgba(0, 0, 0, 0.25) ;
+    border: 3px solid black;
+    margin: 0px 10px;
+    padding: 4px;
+}
+
+.page main .img-1 {
+    float: right;
+}
+
+.page main .img-2 {
+    float: left;
+    margin-right: 16px;
+}
+
+.page main blockquote {
+    width: 40%;
+    float: right;
+    border-left: 4px solid grey;
+    padding-left: 20px;
+    color: rgb(92, 92, 92);
+    font-style: italic;
+}
+
+.page .author-name {
+    text-align: right;
+}

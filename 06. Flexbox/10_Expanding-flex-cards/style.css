@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    height: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 70vw;
+    gap: 18px;
+    height: 50vh;
+}
+
+.container img {
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px #000000;
+    
+}
+.container img:not(:nth-child(2)) {
+    width: 15%;
+}
+
+.container img:nth-child(2) {
+    width: 55%;
+    background-color: black;
+    padding: 0px 16px;
+    border-radius: 8px;
+}

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0;
+    gap: 30px;
+}
+header, main, footer {
+    padding: 0px 40px;
+    
+}
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+
+header {
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+footer {
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
