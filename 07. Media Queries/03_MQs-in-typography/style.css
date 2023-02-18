@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 20px 100px;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+.page>header {
+   border-bottom: 1px solid black;
+   width: 100vw;
+}
+
+.page main section {
+    flex-direction: column;
+    /* max-width: 80vw; */
+    /* margin-right: 20px; */
+}
+
+h1, h2, h3{
+    font-family: Georgia, serif;
+}
+
+img {
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: 2px rgba(0, 0, 0, 0.25) ;
+    border: 3px solid black;
+    margin: 0px 10px;
+    padding: 4px;
+}
+
+.page main .img-1 {
+    float: right;
+}
+
+.page main .img-2 {
+    float: left;
+    margin-right: 16px;
+}
+
+.page main blockquote {
+    width: 40%;
+    float: right;
+    border-left: 4px solid grey;
+    padding-left: 20px;
+    color: rgb(92, 92, 92);
+    font-style: italic;
+}
+
+.page .author-name {
+    text-align: right;
+}
+
+@media screen and (min-width: 1801px){
+    body {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1800px){
+    body {
+        font-size: 21px;
+        padding: 12px 60px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    body {
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    body {
+        font-size: 16px;
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    body {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+    img {
+        margin: 0px 0px;
+    }
+    .page main .img-1 {
+        float: none;
+    }
+    
+    .page main .img-2 {
+        float: none;
+        margin-right: 0px;
+    }
+    .page main blockquote {
+        width: 100%;
+        margin-right: 0px;
+    }
+}

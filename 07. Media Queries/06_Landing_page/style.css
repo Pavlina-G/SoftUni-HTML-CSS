@@ -1,0 +1,256 @@
+/* bg-color: hsl(0, 0%, 90%)
+    bg-color - #ffffff
+ 
+*/
+/* @import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css"); */
+/* :root {
+    --bg-color: hsl(0, 0%, 90%);
+} */
+
+body {
+    /* padding: 1rem 4rem; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    background: linear-gradient(50deg, transparent 24%, #f8f8f8 25%, #f8f8f8 30%, transparent 31%, transparent 39%, #f8f8f8 40%, #f8f8f8 45%, transparent 45%), linear-gradient(140deg, transparent 24%, #f8f8f8 25%, #f8f8f8 30%, transparent 31%, transparent 39%, #f8f8f8 40%, #f8f8f8 45%, transparent 45%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    opacity: 1;
+    line-height: 1.5;
+
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.logo {
+    max-width: 30%;
+    object-fit: cover;
+    padding: 1rem 2rem;
+}
+
+.navbar {
+    max-width: 60%;
+}
+
+.nav-ul {
+    display: inline-flex;
+    gap: 1.75rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.planet {
+    max-width: 60%;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 3rem;
+    margin: 0 auto;
+}
+
+.planet-info {
+    width: 60%;
+    line-height: 1.5;
+}
+
+.planet svg {
+    width: 20%;
+}
+
+.planet-info h2 {
+    margin-bottom: 1.25rem;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.planet-info p {
+    margin-bottom: 1.25rem;
+}
+
+.main-btn {
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 0.25rem 1rem;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem auto 0 auto;
+    padding: 1rem 2rem;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 0.25rem;
+}
+
+.underline-h {
+    border-bottom: 3px solid black;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    width: 6%;
+}
+
+.team-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.team-card {
+    width: 30%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 0rem 3rem;
+
+}
+
+.team-card .team-text .name {
+    display: block;
+    padding: 0;
+    margin: 0;
+
+}
+
+.team-card .team-text .team {
+    margin-bottom: 1rem;
+    color: rgb(118, 117, 117);
+    text-shadow: 1px 0px black;
+}
+
+.team-card .team-img {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    object-fit: cover;
+    /* margin-bottom: 3rem; */
+}
+
+.person-info {
+    font-size: 0.75rem;
+    font-style: italic;
+    text-shadow: 0.4px 0.4px black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.newsletter {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #68347b;
+    color: white;
+    padding: 1rem 0;
+}
+
+.newsletter .underline-h {
+    border-color: white;
+}
+
+.form-wrapper {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.form-wrapper input {
+    border-radius: 4px;
+    border: 1px solid grey;
+    margin-bottom: 1.75rem;
+}
+
+.news {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+.testimonials {
+    background-color: greenyellow;
+    background: linear-gradient(135deg, #f8f8f8 0%, #f8f8f8 5%, transparent 5%, transparent 10%, #f8f8f8 10%, #f8f8f8 15%, transparent 15%, transparent 20%, #f8f8f8 20%, #f8f8f8 25%, transparent 25%, transparent 30%, #f8f8f8 30%, #f8f8f8 35%, transparent 35%, transparent 40%, #f8f8f8 40%, #f8f8f8 45%, transparent 45%, transparent 50%, #f8f8f8 50%, #f8f8f8 55%, transparent 55%, transparent 60%, #f8f8f8 60%, #f8f8f8 65%, transparent 65%, transparent 70%, #f8f8f8 70%, #f8f8f8 75%, transparent 70%, transparent 80%, #f8f8f8 80%, #f8f8f8 85%, transparent 85%, transparent 90%, #f8f8f8 90%, #f8f8f8 95%, transparent 95%);
+    background-size: 5em 5em;
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+.reverse .person-info {
+    margin-bottom: 1rem;
+    width: 70%;
+}
+
+footer {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.foot-info {
+    padding: 2rem;
+    margin-right: 2rem;
+    width: 22%;
+    margin-left: 2rem;
+}
+
+.aside {
+    width: 60%;
+    display: flex;
+    padding: 1rem;
+    gap: 5rem;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+
+.aside .nav-ul {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    display: inline-flex;
+    width: 40%;
+    height: 50%;
+    line-height: 1;
+}
+
+.aside .site-address {
+    margin-right: auto;
+
+}
+
+.aside .site-address .nav-ul {
+    flex-direction: row;
+}

@@ -1,0 +1,56 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    line-height: 1.5;
+    font-size: 1em;
+    padding: 4rem;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    max-width: 40vw;
+    padding-bottom: 2rem;
+    flex-direction: column;
+}
+
+.card div {
+    width: 100%;
+
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+
+div h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    top: 330px;
+}
+
+h3, p{
+    padding: 5px 30px 0px 30px;
+}
+
+p {
+    top: 360px;
+}
+
+div a {
+    background-color: rgb(0, 153, 0);
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: white;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 2rem;
+}
