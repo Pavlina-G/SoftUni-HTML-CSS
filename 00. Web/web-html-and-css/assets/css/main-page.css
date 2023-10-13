@@ -1,0 +1,396 @@
+@import url("./reset.css");
+
+body {
+    font-family:
+        "gg sans",
+        "Noto Sans",
+        "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+.main-page-section {
+    width: 1568px;
+    height: 680px;
+}
+
+/* ------------- First Section ------------ */
+
+.main-page-section:first-child {
+    background-image: url(../images/main-page/discord-img-2.png);
+    background-size: cover;
+    background-position: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 626px;
+}
+
+.main-page-section:nth-child(1n+2) {
+    background-color: #f6f6f6;
+}
+
+.main-page-section:nth-child(2n+2) {
+    background-color: #fff;
+}
+
+.main-page-section:nth-child(5) {
+    height: 1342.4px;
+}
+
+.main-page-section .header-wrapper {
+    width: 1260px;
+    padding: 0, 40px;
+    height: 80px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.header-wrapper .navbar {
+    width: 1180px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 124px;
+    height: 34px;
+}
+
+.header-wrapper .navbar .navigation {
+    width: 932px;
+    height: 22.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.header-wrapper .navbar .navigation a {
+    text-decoration: none;
+    color: #fff;
+    color: #f5f5fe;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+
+.login-btn {
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    color: #272b2e;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #fff;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    border: none;
+}
+
+.login-btn:hover {
+    color: #5865f2;
+}
+
+
+/* ----------------- Hero-Container --------------- */
+.main-page-section .hero-container {
+    width: 1180px;
+    height: 278.7px;
+    padding: 120px 40px;
+    margin-top: 8%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.main-page-section .hero-container h1 {
+    color: #fff;
+    font-size: 56px;
+    font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    /* text-rendering: geometricPrecision; */
+}
+
+.main-page-section .hero-container p {
+    width: 780px;
+    margin-top: 40px;
+    font-size: 17.7px;
+    line-height: 1.625;
+    color: #fff;
+}
+
+.main-page-section .hero-container .btn-wrapper {
+    width: 780px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .main-page-section .hero-container .btn-wrapper .discord-btn { */
+.discord-btn {
+    margin-top: 24px;
+    border-radius: 28px;
+    font-size: 20px;
+    font-size: 17.7px;
+    padding: 16px 32px;
+    background-color: #fff;
+    color: #262a2d;
+    border: none;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.main-page-section .hero-container .btn-wrapper .discord-btn:hover {
+    color: #5865f2;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+}
+
+.main-page-section .hero-container .btn-wrapper .discord-btn:last-child {
+    color: #fff;
+    background-color: #23272a;
+    margin-left: 24px;
+}
+
+.main-page-section .hero-container .btn-wrapper .discord-btn:last-child:hover {
+    background-color: hsl(223, calc(var(--saturation-factor, 1)*6.7%), 20.6%);
+}
+
+/* ------------- Second-Third-Fourth Section ------------ */
+.second-section {
+    width: 1260px;
+    height: 680px;
+    padding: 120px 40px;
+    box-sizing: border-box;
+    line-height: 18.4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.second-section img {
+    width: 678px;
+    height: 440px;
+}
+
+.second-section .second-text-wrapper {
+    margin-left: 20px;
+    width: 380px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+}
+
+.second-section .second-text-wrapper h2 {
+    margin-top: 50px;
+    font-size: 48px;
+    font-size: 43px;
+    line-height: 57.6px;
+    font-weight: 800;
+}
+
+.second-section .second-text-wrapper p {
+    margin-top: 24px;
+    line-height: 32.5px;
+    font-size: 20px;
+    font-size: 17.7px;
+
+}
+
+/* ------------- Fifth Section ------------ */
+div.fifth-section {
+    height: 1058px;
+    height: 1222.4px;
+    padding: 120px 40px 80px 40px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.fifth-section>div.fifth-wrapper {
+    width: 980px;
+    height: 127px;
+    text-align: center;
+}
+
+div.fifth-section>div.fifth-wrapper h2 {
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+div.fifth-section>img {
+    width: 1180px;
+    height: 715.567px;
+}
+
+.ready-wrapper {
+    box-sizing: border-box;
+    width: 1260px;
+    height: 164.4px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.ready-wrapper h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.ready-wrapper .discord-btn {
+    background-color: #5865f2;
+    color: #fff;
+}
+
+.ready-wrapper .discord-btn:hover {
+    background-color: hsl(235, calc(var(--saturation-factor, 1)*86.1%), 71.8%);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+}
+
+
+footer.main-page-section:last-of-type {
+    height: 611px;
+    background-color: #23272a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .nav-end {
+    box-sizing: border-box;
+    width: 1260px;
+    height: 396px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+footer .nav-end .language-social {
+    width: 280px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 56px;
+}
+
+.language-social img {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.language-social .language-btn {
+    font-size: 14px;
+    line-height: 18px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.language-social .social {
+    width: 280px;
+    height: 24px;
+    margin-top: 24px;
+}
+
+.language-social .social ol {
+    display: flex;
+    align-items: center;
+    margin-left: -24px;
+}
+
+.language-social .social ol a {
+    color: #fff;
+    cursor: pointer;
+    margin-left: 24px;
+}
+
+.language-social .social ol a i {
+    width: 30;
+    height: 30;
+
+}
+
+.nav-end .space {
+    width: 80px;
+    height: 396px;
+}
+
+.navbar-ending {
+    width: 180px;
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+}
+
+.navbar-ending h5 {
+    color: #5865f2;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.navbar-ending a{
+    height: 24px;
+    margin-top: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar-ending a:hover{
+    text-decoration: underline;
+}
+
+.footer-end{
+    width: 1260px;
+    height: 71px;
+    padding: 0 40px;
+}
+
+.footer-separator {
+    width: 1180px;
+    height: 1px;
+    margin-bottom: 32px;
+    background-color: #5865f2;
+}
+.footer-signup{
+    width: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-end button.login-btn{
+    background-color: #5865f2;
+    color: #fff;
+}
