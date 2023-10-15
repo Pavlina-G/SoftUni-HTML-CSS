@@ -1,0 +1,157 @@
+body {
+    max-width: 1440px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* ------------- Header -------------  */
+
+header {
+    max-width: 1440px;
+    padding: 0 140px;
+    height: 121px;
+    background: #daac00;
+    display: grid;
+    grid-template-areas:
+        'logo nav search';
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+header img.logo {
+    grid-area: logo;
+    width: 212px;
+    height: 56px;
+}
+
+header nav {
+    width: 524px;
+    grid-area: nav;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header nav a {
+    text-decoration: none;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.search-input {
+    position: relative;
+}
+
+.search-input input {
+    padding: 0;
+    padding-left: 10px;
+    width: 274px;
+    height: 51px;
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+    background-color: #fcc302;
+    border: none;
+}
+
+.search-input input::placeholder {
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    opacity: 1;
+
+}
+
+.search-input button {
+    width: 71px;
+    height: 51px;
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+    background-color: #00bec9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------------- Banner section -------------  */
+
+section.banner-container {
+    height: 780px;
+    background-color: #fcc302;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner-container div.service-wrapper {
+    width: 1080px;
+    height: 605px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas:
+        'info dog-img';
+    align-items: center;
+    column-gap: 20px;
+}
+
+.service-wrapper img {
+    width: 419px;
+    height: 604px;
+    grid-area: dog-img;
+}
+
+.service-text {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-text h1 {
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.service-text p {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.main-btn {
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.main-btn:hover{
+    color:#fcc302;
+    background-color: #ffffff;
+}
+
+.contact-btn {
+    background-color: #00bec9;
+    border: none;
+}
+.contact-btn:hover {
+    color: #00bec9;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+}
