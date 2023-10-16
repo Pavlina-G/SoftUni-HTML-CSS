@@ -16,7 +16,7 @@ header {
     grid-template-areas:
         'logo nav search';
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
 }
 
@@ -88,12 +88,10 @@ section.banner-container {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .banner-container div.service-wrapper {
-    width: 1080px;
-    height: 605px;
+    padding: 140px;
     box-sizing: border-box;
     display: grid;
     grid-template-areas:
@@ -141,8 +139,9 @@ section.banner-container {
     color: #ffffff;
     font-weight: 600;
 }
-.main-btn:hover{
-    color:#fcc302;
+
+.main-btn:hover {
+    color: #fcc302;
     background-color: #ffffff;
 }
 
@@ -150,8 +149,92 @@ section.banner-container {
     background-color: #00bec9;
     border: none;
 }
+
 .contact-btn:hover {
     color: #00bec9;
     background-color: #ffffff;
     border: 3px solid #ffffff;
 }
+
+/* ----------------- Section Two ----------------- */
+
+section.info-wrapper {
+    height: 794px;
+    display: grid;
+    padding: 140px;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    justify-content: space-between;
+}
+.info-wrapper .info-text {
+    display: grid;
+}
+.info-wrapper .info-text h2 {
+    font-size: 50px;
+    color: #313243;
+    font-weight: 600;
+}
+
+.info-wrapper .info-text p {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #313243;
+    font-weight: 400;
+}
+
+.info-wrapper .info-text button {
+    background-color: #fcc302;
+    font-size: 21px;
+}
+
+.info-wrapper .info-text button:hover {
+    color: #fcc302;
+    background-color: #ffffff;
+    border: 3px solid #fcc302;
+}
+
+.info-wrapper .img-wrapper {
+    position: relative;
+    width: 506px;
+    height: 480px;
+    margin-left: 93px;
+}
+
+.info-wrapper .img-wrapper img.info-dog {
+    width: 506px;
+    height: 480px;
+    position: absolute;
+}
+
+.info-wrapper .img-wrapper::after {
+    content: '';
+    display: block;
+    opacity: 0.569;
+    width: 100%;
+    height: 100%;
+    background-color: #daac0091;
+}
+
+.info-wrapper img.info-icon {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.info-wrapper .img-square {
+    width: 252px;
+    height: 206px;
+    background-color: #fcc302;
+    position: absolute;
+    bottom: -36px;
+    left: -36px;
+    z-index: -1;
+  
+}
+
+/* ----------------- Section Three ----------------- */
