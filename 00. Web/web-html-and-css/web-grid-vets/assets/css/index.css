@@ -167,9 +167,11 @@ section.info-wrapper {
     align-content: center;
     justify-content: space-between;
 }
+
 .info-wrapper .info-text {
     display: grid;
 }
+
 .info-wrapper .info-text h2 {
     font-size: 50px;
     color: #313243;
@@ -234,7 +236,65 @@ section.info-wrapper {
     bottom: -36px;
     left: -36px;
     z-index: -1;
-  
+
 }
 
 /* ----------------- Section Three ----------------- */
+
+section.third-section {
+    box-sizing: border-box;
+    height: 1018px;
+    background-color: #fcc302;
+    padding: 100px 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+section.third-section h2 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+section.third-section>p {
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+section.third-section .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+section.third-section .cards-wrapper .card img {
+    width: 342px;
+    height: 353px;
+    background-color: #d1d1d1;
+    border: 6px solid #ffffff;
+    margin-bottom: 55px;
+}
+
+section.third-section .cards-wrapper .card h3 {
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section.third-section .cards-wrapper .card p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+/* ----------------- Section Four ----------------- */
