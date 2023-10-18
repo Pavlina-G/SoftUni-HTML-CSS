@@ -176,10 +176,12 @@ section.info-wrapper {
     font-size: 50px;
     color: #313243;
     font-weight: 600;
+    margin-top: 80px;
 }
 
 .info-wrapper .info-text p {
     font-size: 29px;
+    font-size: 27px;
     letter-spacing: 0px;
     color: #313243;
     font-weight: 400;
@@ -270,7 +272,8 @@ section.third-section>p {
 
 section.third-section .cards-wrapper {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
 }
 
 section.third-section .cards-wrapper .card img {
@@ -298,3 +301,77 @@ section.third-section .cards-wrapper .card p {
 }
 
 /* ----------------- Section Four ----------------- */
+section.four-section {
+    direction: rtl;
+}
+
+section.four-section .img-wrapper {
+    margin-left: 0;
+    margin-right: 90px;
+}
+
+section.four-section .img-wrapper .img-square {
+    left: 0px;
+    right: -36px;
+}
+
+/* ----------------- Section Five ----------------- */
+section.five-section .cards-wrapper {
+    width: 100%;
+
+}
+
+section.five-section .cards-wrapper h3 {
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+}
+
+section.five-section .cards-wrapper h3 span.line-effect {
+    width: 109px;
+    height: 4px;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 21%;
+}
+
+section.five-section>p {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 737px;
+}
+
+section.five-section .cards-wrapper h3 #second-usd {
+    margin-left: 40px;
+
+}
+
+section.five-section .cards-wrapper p {
+    margin-bottom: 94px;
+}
+
+section.five-section .cards-wrapper img {
+    margin-bottom: 41px;
+}
+
+
+section.five-section .cards-wrapper .contact-btn {
+    width: 199px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #00bec9;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+section.five-section .cards-wrapper .contact-btn:hover {
+    color: #00bec9;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+}
