@@ -2,6 +2,7 @@ body {
     max-width: 1440px;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 
@@ -374,4 +375,179 @@ section.five-section .cards-wrapper .contact-btn:hover {
     color: #00bec9;
     background-color: #ffffff;
     border: 3px solid #ffffff;
+}
+
+
+
+
+/* ----------------- Section Six ----------------- */
+section.six-section {
+    height: 1074px;
+    background-color: #ffffff;
+}
+
+section.six-section h2 {
+    color: #313243;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+section.six-section p {
+    font-size: 33px;
+    color: #313243;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+section.six-section .cards-wrapper {
+    width: 100%;
+}
+
+section.six-section .cards-wrapper .card img {
+    margin-bottom: 40px;
+}
+
+section.six-section .cards-wrapper .card h3 {
+    font-size: 29px;
+    color: #313243;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+section.six-section .cards-wrapper .card h4 {
+    color: #313243;
+    font-size: 25px;
+    color: #313243;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+section.six-section .cards-wrapper .card .social-wrapper {
+    width: 184px;
+    height: 35px;
+    margin: 0 auto;
+    /* background-color: #daac00; */
+}
+
+.social-wrapper ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.social-wrapper ul i {
+    width: 35px;
+    height: 35px;
+    color: #daac00;
+    font-size: 25px;
+}
+
+/* --------------- Section Seven --------------- */
+
+section.seven-section {
+    height: 576px;
+    background-image: url(../images/sec7-bg-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 140px;
+}
+
+section.seven-section .cards-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.seven-section .cards-wrapper .card img {
+    background-color: transparent;
+    border: none;
+    width: 91px;
+    height: 91px;
+    margin-bottom: 55px;
+}
+
+section.seven-section .cards-wrapper .card h3 {
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+section.seven-section .cards-wrapper .card p {
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+/* --------------- Section Eight --------------- */
+
+section.eight-section .cards-wrapper {
+    border: none;
+    gap: 38px;
+}
+
+section.eight-section .cards-wrapper .card {
+    width: 361px;
+    height: 628px;
+    background-color: #f3f3f3;
+    border: 2px solid #d6d6d6;
+    box-sizing: border-box;
+}
+
+section.eight-section .cards-wrapper .card:nth-of-type(2) {
+    filter: drop-shadow(5.634px 10.595px 25.5px rgba(74, 74, 74, 0.1));
+    background-color: #ffffff;
+}
+
+
+section.eight-section .cards-wrapper .card img {
+    width: 100%;
+    height: 351px;
+    background-color: #d3d3d3;
+    border: none;
+    margin-bottom: 0;
+
+}
+
+section.eight-section .cards-wrapper .card div {
+    padding: 30px 28px;
+    text-align: left;
+}
+
+section.eight-section .cards-wrapper .card div>h3,
+h4 {
+    text-align: left;
+}
+
+section.eight-section .cards-wrapper .card h3 {
+    font-size: 25px;
+    color: #313243;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+section.eight-section .cards-wrapper .card h4 {
+    font-size: 17px;
+    color: #00bec9;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+section.eight-section .cards-wrapper .card p {
+    font-size: 17px;
+    color: #313243;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+
+section.eight-section .cards-wrapper .card a {
+    font-size: 21px;
+    color: #00bec9;
+    font-weight: 500;
+    text-decoration: none;
 }
