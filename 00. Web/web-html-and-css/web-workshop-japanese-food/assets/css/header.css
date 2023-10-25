@@ -1,0 +1,153 @@
+header {
+    max-width: 1440px;
+    min-height: 85px;
+    margin: 0 auto;
+    padding: 0px 55px;
+    background-color: #21243d;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav {
+    display: flex;
+}
+
+header>a {
+    display: flex;
+}
+
+header .logo,
+header nav,
+header i {
+    flex-grow: 1;
+    /* flex: 1, 1, auto; */
+
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+header i {
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: end;
+    flex-grow: 2;
+}
+
+section.first-container {
+    min-height: 713px;
+    background-image: url(../images/bg-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+section.first-container::before {
+    content: '';
+    position: absolute;
+    background-color: #e6bc6f;
+    opacity: 0.367;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+section.first-container .container {
+    min-height: 713px;
+    position: relative;
+    z-index: 1;
+}
+
+section.first-container .heading-wrapper {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section.first-container h1 {
+    font-size: 125px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+section.first-container p {
+    font-size: 30px;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+section.first-container .order-btn {
+    text-decoration: none;
+    background-color: #21243d;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 75px;
+    border-radius: 33px;
+}
+
+@media screen and (max-width:1200px) {
+    section.first-container h1 {
+        font-size: 80px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    section.first-container h1 {
+        font-size: 80px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    section.first-container p {
+        font-size: 24px;
+        margin-bottom: 50px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    section.first-container h1 {
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    section.first-container p {
+        font-size: 22px;
+        margin-bottom: 50px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    section.first-container .heading-wrapper {
+        width: 100%;
+        align-items: center;
+
+    }
+}

@@ -1,0 +1,129 @@
+footer.container {
+    background-color: #111111;
+    align-items: center;
+    justify-content: center;
+    padding: 88px;
+}
+
+footer .footer-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-card h2 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.footer-card a {
+    font-size: 24px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-card p {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.footer-card .social-wrapper ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card .social-wrapper li {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-card .social-wrapper a {
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #111111;
+    font-size: 30px;
+}
+
+.footer-wrapper .title-card {
+    flex-basis: 39%;
+    margin-right: 100px;
+}
+
+.footer-wrapper .title-card p {
+    margin-bottom: 33px;
+}
+
+@media screen and (max-width:1200px) {
+    .footer-wrapper .title-card {
+        flex-basis: 39%;
+        margin-right: 50px;
+    }
+
+    .footer-card .social-wrapper ul {
+        width: 84%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .footer-card h2 {
+        font-size: 26px;
+    }
+
+    .footer-card p,
+    .footer-card a {
+        font-size: 20px;
+    }
+
+    .footer-card .social-wrapper li {
+        width: 34px;
+        height: 34px;
+    }
+
+    .footer-card .social-wrapper a {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    footer .footer-wrapper {
+        flex-direction: column;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        text-align: center;
+        gap: 50px;
+    }
+    
+    .footer-wrapper h2 {
+        font-weight: bold;
+    }
+    .footer-wrapper .title-card {
+        margin-right: 0;
+    }
+
+    .footer-card .social-wrapper ul {
+        width: 100%;
+    }
+}

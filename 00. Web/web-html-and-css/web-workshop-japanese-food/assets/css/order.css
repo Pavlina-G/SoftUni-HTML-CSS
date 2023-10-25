@@ -1,0 +1,100 @@
+#order-first.container {
+    background-image: url(../images/order-design.svg);
+    background-size: cover;
+    background-color: #ffd17e;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#order-second.container{
+    background-image: url(../images/order2-design.svg);
+    background-size: cover;
+    background-color: #ffd17e;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.container .order-wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    color: #21243d;
+}
+
+.container .order-wrapper img {
+    max-width: 460px;
+    max-height: 460px;
+    border-radius: 50%;
+}
+
+.container .order-wrapper .heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 51%;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.container .order-wrapper .heading-wrapper h2 {
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+}
+
+.container .order-wrapper .heading-wrapper p {
+    font-size: 30px;
+    color: #21243d;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+    .container .order-wrapper {
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .order-wrapper img {
+        max-width: 22rem;
+        max-height: 22rem;
+    }
+
+    .container .order-wrapper .heading-wrapper {
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        height: 40%;
+    }
+
+    .container .order-wrapper .heading-wrapper h2 {
+        font-size: 65px;
+    }
+
+    .container .order-wrapper .heading-wrapper p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: unset;
+    }
+
+    .container .order-wrapper {
+        max-width: unset;
+    }
+
+    .container .order-wrapper .heading-wrapper {
+        max-width: unset;
+    }
+
+    .container .order-wrapper .heading-wrapper h2 {
+        font-size: 55px;
+    }
+
+    .container .order-wrapper .heading-wrapper p {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,101 @@
+#subscribe.container {
+    background-color: #ffd17e;
+    background-image: url(../images/subscribe-dsign.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 168px;
+}
+
+#subscribe.container h2 {
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+    text-align: center;
+}
+
+#subscribe.container p {
+    text-align: center;
+    font-size: 30px;
+    color: #21243d;
+    font-weight: 400;
+    max-width: 80%;
+}
+
+#subscribe.container form {
+    position: relative;
+    margin-bottom:100px ;
+}
+
+#subscribe.container form input[type="email"] {
+    width: 768px;
+    height: 63px;
+    background-color: #ffffff;
+    padding-left: 30px;
+    border-radius: 33px;
+    border: none;
+
+}
+
+#subscribe.container form input[type="email"]::placeholder {
+    opacity: 0.502;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 400;
+
+}
+
+#subscribe.container form input[type="submit"] {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    width: 222px;
+    height: 65px;
+    border-radius: 33px;
+    background-color: #21243d;
+    position: absolute;
+    right: 0;
+    border: none;
+}
+
+@media screen and (max-width:992px) {
+    #subscribe.container h2 {
+        font-size: 60px;
+    }
+    #subscribe.container p {
+        max-width: unset;
+        font-size: 24px;
+    }
+    #subscribe.container form input[type="email"] {
+        width: 500px;}
+}
+
+@media screen and (max-width:600px) {
+    #subscribe.container {
+        padding-top: 10px;
+    }
+    #subscribe.container h2 {
+        font-size: 40px;
+    }
+    #subscribe.container p {
+        max-width: unset;
+        font-size: 20px;
+    }
+    #subscribe.container form {
+        display: flex;
+        flex-direction: column;
+    }
+    #subscribe.container form input[type="email"] {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #subscribe.container form input[type="submit"] {
+        position: static;
+        width: 100%;
+        
+    }
+}
