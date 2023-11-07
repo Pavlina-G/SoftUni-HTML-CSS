@@ -1,0 +1,76 @@
+#popular-menu.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 125px 115px;
+    text-align: center;
+    background-color: #e19063;
+}
+
+#popular-menu.container .popular-header-wrapper h2 {
+    font-size: 123px;
+    line-height: 163px;
+    color: #eaeaea;
+    font-weight: 400;
+    font-family: "Satisfy";
+}
+
+#popular-menu.container .popular-header-wrapper p {
+    width: 645px;
+    height: 123px;
+    font-size: 25px;
+    line-height: 25px;
+    color: #eaeaea;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+
+}
+
+#popular-menu.container .popular-cards-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 20px; */
+    /* flex: 1 1 33%; */
+    /* flex-direction: row; */
+}
+
+#popular-menu.container .popular-cards-wrapper .card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    margin-bottom: 70px;
+}
+
+#popular-menu.container .popular-cards-wrapper .card img {
+    width: 251px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+#popular-menu.container .popular-cards-wrapper .card h3 {
+    font-size: 36px;
+    line-height: 44px;
+    color: #eaeaea;
+    font-weight: 700;
+    font-family: "Lato";
+}
+
+#popular-menu.container .popular-cards-wrapper .card p {
+    width: 425px;
+    height: 123px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #eaeaea;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+section.about-offer {
+    display: flex;
+    padding-left: 105px;
+    align-items: center;
+    justify-content: space-between;
+}
+#offer-section.about-offer {
+    flex-direction: row-reverse;
+    padding-left: 0px;
+    padding-right: 120px;
+}
+
+#offer-section.about-offer .about-wrapper {
+    padding-left: 80px;
+}
+
+section.about-offer .about-wrapper h2 {
+    font-size: 100px;
+    color: #a35638;
+    font-weight: 400;
+    font-family: "Satisfy";
+    margin-bottom: 40px;
+}
+
+section.about-offer .about-wrapper p {
+    width: 511px;
+    height: 125px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #a35638;
+    font-weight: 400;
+    font-family: "Lato";
+    margin-bottom: 70px;
+
+}
+
+section.about-offer .about-wrapper btn {}
+
+section.about-offer .about-img {
+    width: 58%;
+}
+
+section.about-offer .about-img img{
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+@import url(reset.css);
+@import url(banner.css);
+@import url(about-offer.css);
+@import url(popular.css);
+
+body {
+    color: #eaeaea;
+    font-family: "Lato";
+    background-color: #dec89d;
+    line-height: 1.2;
+}
+
+h1,
+h2 {
+    font-family: 'Satisfy', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 33px;
+    line-height: 33px;
+    color: #eaeaea;
+    font-weight: 700;
+    font-family: "Lato";
+    border-radius: 41px;
+    border:none;
+    background-color: #a35638;
+    width: fit-content;
+    padding: 28px 58px;
+    text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+    .btn {
+        font-size: 26px;
+        line-height: 26px;
+        padding: 18px 38px;
+    }
+}

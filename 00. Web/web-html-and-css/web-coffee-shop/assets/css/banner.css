@@ -1,0 +1,153 @@
+header {
+    position: relative;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    background-color: #a35638;
+    opacity: 0.749;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+header div.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 85px;
+    position: relative;
+    z-index: 1;
+}
+
+header div nav {
+    width: 66%;
+}
+header div.header-wrapper i{
+    display: none;
+}
+
+header div nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header div nav ul li a {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+
+}
+
+section.banner {
+    background-image: url("../images/banner-img.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+section.banner .banner-wrapper {
+    display: flex;
+    width: 70%;
+    padding: 65px 0px 65px 100px;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 212px;
+    /* margin-right: 50px; */
+    /* margin-bottom: 300px; */
+}
+
+section.banner .banner-wrapper h1 {
+    font-size: 128px;
+    color: #9baf6d;
+    font-weight: 400;
+
+}
+
+section.banner .banner-wrapper h2 {
+    font-size: 41px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    color: #afc67b;
+    font-weight: bold;
+    font-family: "Lato";
+
+}
+
+@media screen and (max-width:1200px) {
+
+    header div nav ul li a {
+        font-size: 30px;
+    }
+
+    section.banner .banner-wrapper {
+        width: 90%;
+
+        section.banner .banner-wrapper h1 {
+            font-size: 118px;
+
+        }
+
+        section.banner .banner-wrapper h2 {
+            font-size: 31px;
+            letter-spacing: 6px;
+
+        }
+    }
+
+    @media screen and (max-width:992px) {
+        header div nav {
+            width: 70%;
+        }
+
+        header div.header-wrapper {
+            padding: 30px 45px;
+        }
+
+        header div>.logo {
+            max-width: 28%;
+        }
+
+        header div nav ul li a {
+            font-size: 26px;
+        }
+
+        section.banner .banner-wrapper h1 {
+            font-size: 98px;
+
+        }
+
+        section.banner .banner-wrapper h2 {
+            font-size: 26px;
+            letter-spacing: 6px;
+
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        header div.header-wrapper {
+            padding: 20px 50px;
+        }
+        header div nav {
+            display: none;
+        }
+
+        header div.header-wrapper i{
+            display: inline-flex;
+            font-size: 30px;
+        }
+
+        section.banner .banner-wrapper {
+
+            width: 100%;
+            padding: 65px;
+            gap: 40px;
+            padding-bottom: 212px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
