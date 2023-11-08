@@ -1,0 +1,31 @@
+#social-icons.container {
+    width: 1442px;
+    height: 262px;
+    background-color: #af6d4c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#social-icons.container .icons {
+    display: flex;
+    gap: 34px;
+
+}
+
+#social-icons.container .icons a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-icons.container .icons i {
+    color: #af6d4c;
+    text-align: center;
+    font-size: 30px;
+}

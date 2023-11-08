@@ -2,6 +2,11 @@
 @import url(banner.css);
 @import url(about-offer.css);
 @import url(popular.css);
+@import url(testimonials.css);
+@import url(order.css);
+@import url(social.css);
+@import url(footer.css);
+
 
 body {
     color: #eaeaea;
