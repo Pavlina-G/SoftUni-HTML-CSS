@@ -1,6 +1,6 @@
 footer.container {
-    width: 1440px;
-    height: 323px;
+    width: 100%;
+    min-height: 323px;
     background-color: #393939;
     padding: 65px 172px 80px 172px;
     display: flex;
@@ -11,9 +11,10 @@ footer.container {
 footer.container .footer-about-us {
     display: flex;
     flex-direction: column;
+    flex: 1 1 35%;
 }
 
-footer.container .footer-about-us h3{
+footer.container .footer-about-us h3 {
     width: 161px;
     height: 32px;
     font-size: 42px;
@@ -23,8 +24,9 @@ footer.container .footer-about-us h3{
     font-family: "Satisfy";
     margin-bottom: 30px;
 }
-footer.container .footer-about-us p{
-    width: 344px;
+
+footer.container .footer-about-us p {
+    width: 80%;
     height: 140px;
     font-size: 19px;
     line-height: 29px;
@@ -33,18 +35,18 @@ footer.container .footer-about-us p{
     font-family: "Lato";
 }
 
-footer.container .footer-nav{
+footer.container .footer-nav {
     display: flex;
-    height: 100%;
+    flex: 1 2 60%;
     gap: 80px;
 }
 
-footer.container .footer-nav .footer-nav-card{
+footer.container .footer-nav .footer-nav-card {
     display: flex;
     flex-direction: column;
 }
 
-footer.container .footer-nav .footer-nav-card h4{
+footer.container .footer-nav .footer-nav-card h4 {
     font-size: 25px;
     line-height: 33px;
     color: #e7e7e7;
@@ -53,11 +55,76 @@ footer.container .footer-nav .footer-nav-card h4{
     margin-bottom: 47px;
 }
 
-footer.container .footer-nav .footer-nav-card h5{
+footer.container .footer-nav .footer-nav-card h5 {
     font-size: 21px;
     line-height: 33px;
     color: #e7e7e7;
     font-weight: 400;
     font-family: "Lato";
     margin: 0;
+}
+
+@media screen and (max-width:1200px) {
+    footer.container {
+        min-height: 323px;
+        padding: 50px 120px 60px 120px;
+    }
+
+    footer.container .footer-nav {
+        gap: 50px;
+    }
+
+    footer.container .footer-nav .footer-nav-card h4 {
+        font-size: 25px;
+        line-height: 31px;
+
+        margin-bottom: 30px;
+    }
+
+    footer.container .footer-nav .footer-nav-card h5 {
+        font-size: 19px;
+        line-height: 31px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    footer.container .footer-about-us h3 {
+        /* width: 161px;
+        height: 32px; */
+        font-size: 32px;
+        line-height: 31px;
+        margin-bottom: 30px;
+    }
+
+    footer.container .footer-nav .footer-nav-card h4 {
+        font-size: 23px;
+        line-height: 31px;
+        margin-bottom: 30px;
+    }
+
+    footer.container {
+        min-height: 323px;
+        padding: 50px 60px;
+    }
+}
+
+@media screen and (max-width:780px) {
+
+    footer.container .footer-about-us h3 {
+        font-size: 28px;
+        line-height: 31px;
+
+        margin-bottom: 30px;
+    }
+
+    footer.container .footer-nav {
+        gap: 20px;
+    }
+
+    footer.container .footer-nav .footer-nav-card h4 {
+        font-size: 21px;
+        line-height: 31px;
+        margin-bottom: 30px;
+    }
 }

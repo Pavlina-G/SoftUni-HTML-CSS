@@ -2,8 +2,7 @@
     background-image: url(../images/testimonials.svg);
     background-size: cover;
     position: relative;
-    width: 1450px;
-    height: 861px;
+    width: 100%;
 }
 
 #testimonials.container::before {
@@ -44,4 +43,55 @@
     font-style: italic;
     font-family: "Lato";
     text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+    #testimonials.container div {
+        padding: 150px 50px;
+    }
+    
+    #testimonials.container div h2 {
+        font-size: 80px;
+        line-height: 143px;
+    }
+    
+    #testimonials.container div h3 {
+        font-size: 42px;
+        line-height: 75px;
+
+    }
+}
+
+@media screen and (max-width:992px) {
+    #testimonials.container div {
+        padding: 150px 50px;
+    }
+    
+    #testimonials.container div h2 {
+        font-size: 60px;
+        line-height: 123px;
+    }
+    
+    #testimonials.container div h3 {
+        font-size: 32px;
+        line-height: 65px;
+
+    }
+}
+
+@media screen and (max-width:992px) {
+    #testimonials.container div {
+        padding: 100px 50px;
+    }
+    
+    #testimonials.container div h2 {
+        font-size: 50px;
+        line-height: 113px;
+    }
+    
+    #testimonials.container div h3 {
+        font-size: 30px;
+        line-height: 63px;
+
+    }
 }

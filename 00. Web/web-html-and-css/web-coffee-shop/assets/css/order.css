@@ -1,8 +1,8 @@
 #order.container {
     position: relative;
-    width: 1450px;
-    height: 735px;
+    width: 100%;
     background-color: #a35638;
+    padding: 180px 150px 160px 150px;
 }
 
 #order.container::after {
@@ -58,4 +58,21 @@
     font-family: "Lato";
     text-align: center;
     background-color: #e19063;
+}
+
+@media screen and (max-width:992px){
+    #order.container {
+        padding: 180px 100px 160px 100px;
+    }
+    #order .order-wrapper h2 {
+        font-size: 85px;
+        margin-bottom: 40px;
+    }
+    
+    #order .order-wrapper p {
+        width: 100%;
+        font-size: 25px;
+        line-height: 29px;
+        margin-bottom: 70px;
+    }
 }
