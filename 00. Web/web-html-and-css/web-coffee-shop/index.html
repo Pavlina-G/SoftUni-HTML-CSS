@@ -20,7 +20,7 @@
         <header>
             <div class="header-wrapper">
                 <img src="./assets/images/coffee-logo.svg" alt="Logo" class="logo">
-                <nav>
+                <nav id="">
                     <ul role="list">
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">About</a></li>
@@ -29,9 +29,21 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
-                <i class="fa-solid fa-bars"></i>
+                
+                <i id="burger-icon" class="fa-solid fa-bars"></i>
+                
+                
             </div>
         </header>
+        <nav id="nav-bar">
+            <ul role="list">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Promo</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <div class="banner-wrapper">
             <h1>We are<br>
                 Opening Now!</h1>
@@ -138,8 +150,8 @@
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <img src="./assets/images/icon-p.png" alt="icon">
-            <img src="./assets/images/icon-g.png" alt="icon">
+            <a href=""><img src="./assets/images/icon-p.png" alt="icon"></a>
+            <a href=""><img src="./assets/images/icon-g.png" alt="icon"></a>
 
         </div>
     </section>
@@ -193,5 +205,6 @@
         </div>
     </footer>
 </body>
+<script src="./assets/js/index.js"></script>
 
 </html>
