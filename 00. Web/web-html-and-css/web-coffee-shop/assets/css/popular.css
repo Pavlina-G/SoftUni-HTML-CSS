@@ -34,9 +34,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* gap: 20px; */
-    /* flex: 1 1 33%; */
-    /* flex-direction: row; */
 }
 
 #popular-menu.container .popular-cards-wrapper .card {
@@ -65,12 +62,88 @@
 }
 
 #popular-menu.container .popular-cards-wrapper .card p {
-    width: 425px;
-    height: 123px;
     font-size: 21px;
     line-height: 21px;
     color: #eaeaea;
     font-weight: 400;
     font-family: "Lato";
     text-align: center;
+}
+
+@media screen and (max-width:1200px){
+    #popular-menu.container .popular-cards-wrapper .card {
+        width: 30%;
+        display: flex;
+        gap: 22px;
+        margin-bottom: 50px;
+    }
+    #popular-menu.container .popular-cards-wrapper .card img {
+        width: 225px;
+        height: 224px;
+        border-radius: 125px;
+    }
+}
+
+@media screen and (max-width:992px){
+    #popular-menu.container .popular-cards-wrapper .card {
+        width: 30%;
+        display: flex;
+        gap: 12px;
+        margin-bottom: 30px;
+    }
+    #popular-menu.container .popular-cards-wrapper .card img {
+        width: 180px;
+        height: 180px;
+        border-radius: 125px;
+    }
+    #popular-menu.container .popular-cards-wrapper .card h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    #popular-menu.container .popular-cards-wrapper .card p {
+        font-size: 19px;
+        line-height: 21px;
+
+    }
+    #popular-menu.container {
+        padding: 60px 60px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #popular-menu.container .popular-header-wrapper h2 {
+        font-size: 80px;
+        line-height: 123px;
+    }
+    
+    #popular-menu.container .popular-header-wrapper p {
+        font-size: 20px;
+        line-height: 20px;
+        width: fit-content;
+    }
+    #popular-menu.container .popular-cards-wrapper .card {
+        width: 30%;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    #popular-menu.container .popular-cards-wrapper .card img {
+        width: 150px;
+        height: 150px;
+        border-radius: 125px;
+    }
+    #popular-menu.container .popular-cards-wrapper .card h3 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    
+    #popular-menu.container .popular-cards-wrapper .card p {
+        font-size: 18px;
+        line-height: 19px;
+
+    }
+    #popular-menu.container {
+        padding: 40px 40px;
+    }
 }

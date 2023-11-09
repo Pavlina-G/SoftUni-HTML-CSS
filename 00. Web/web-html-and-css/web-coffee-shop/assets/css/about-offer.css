@@ -1,6 +1,7 @@
 section.about-offer {
     display: flex;
     padding-left: 105px;
+    height: 851px;
     align-items: center;
     justify-content: space-between;
 }
@@ -10,8 +11,12 @@ section.about-offer {
     padding-right: 120px;
 }
 
+section.about-offer .about-wrapper {
+    width: 40%;
+}
 #offer-section.about-offer .about-wrapper {
     padding-left: 80px;
+    width: 40%;
 }
 
 section.about-offer .about-wrapper h2 {
@@ -23,23 +28,100 @@ section.about-offer .about-wrapper h2 {
 }
 
 section.about-offer .about-wrapper p {
-    width: 511px;
-    height: 125px;
     font-size: 25px;
     line-height: 29px;
     color: #a35638;
     font-weight: 400;
     font-family: "Lato";
     margin-bottom: 70px;
-
 }
 
-section.about-offer .about-wrapper btn {}
+section.about-offer .about-wrapper a.btn {
+    display: block;
+}
+
 
 section.about-offer .about-img {
     width: 58%;
+    height: 100%;
+    background-image: url(../images/about-us-img.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#offer-section.about-offer .about-img {
+    background-image: url(../images/offer-img.svg);
+
 }
 
 section.about-offer .about-img img{
     width: 100%;
+    height: 100%;
+    
+    /* background-size: cover; */
+}
+
+@media screen and (max-width:1200px) {
+    #offer-section.about-offer {
+        padding-right: 60px;
+    }
+    section.about-offer .about-img {
+        width: 60%;
+    }
+
+    #offer-section.section.about-offer .about-img {
+        width: 60%;
+    }
+    #about-section.about-offer .about-wrapper {
+        margin-right: 80px;
+    }
+    section.about-offer .about-wrapper h2 {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+    
+    section.about-offer .about-wrapper p {
+        font-size: 23px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #about-section.about-offer {
+        padding-left: 40px;
+    }
+    #about-section.about-offer .about-wrapper {
+        margin-right: 40px;
+    }
+
+    #offer-section.about-offer .about-wrapper {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width:600px){
+    section.about-offer .about-wrapper {
+        width: 60%;
+    }
+    #about-section.about-offer .about-wrapper {
+        margin-right: 20px;
+        width: 60%;
+    }
+
+    #offer-section.about-offer .about-wrapper {
+        padding-left: 40px;
+        width: 60%;
+    }
+    section.about-offer .about-img{
+        width: 40%;
+    }
+    section.about-offer .about-wrapper h2 {
+        font-size: 64px;
+        margin-bottom: 20px;
+    }
+    
+    section.about-offer .about-wrapper p {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
 }
