@@ -25,10 +25,12 @@ header div.header-wrapper {
 header div nav {
     width: 66%;
 }
-header div #nav-bar {
+
+#nav-bar {
     display: none;
 }
-header div.header-wrapper i{
+
+header div.header-wrapper i {
     display: none;
 }
 
@@ -134,9 +136,11 @@ section.banner .banner-wrapper h2 {
         header div.header-wrapper {
             padding: 20px 50px;
         }
+
         header div nav {
             display: none;
         }
+
         #nav-bar {
             position: absolute;
             display: none;
@@ -145,23 +149,25 @@ section.banner .banner-wrapper h2 {
             top: 9%;
             flex-direction: column;
             flex-wrap: wrap;
-            align-items:flex-end;
+            align-items: flex-end;
             justify-content: space-between;
             transition: 0.3s ease-in-out;
-            
+
         }
+
         #nav-bar ul {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
             gap: 5px;
         }
-        
+
         #nav-bar li a {
             font-size: 25px;
-        
+
         }
-        #nav-bar li a:hover{
+
+        #nav-bar li a:hover {
             background-color: rgb(155, 175, 109, 0.67);
             background-color: #85955e;
             padding: 2px 14px;
@@ -169,7 +175,7 @@ section.banner .banner-wrapper h2 {
             transition: transform 0.2s;
         }
 
-        header div.header-wrapper i{
+        header div.header-wrapper i {
             display: inline-flex;
             font-size: 30px;
         }
