@@ -1,0 +1,132 @@
+#favourite {
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    /* overflow: hidden; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 155px;
+    padding-left: 36px;
+}
+
+
+#favourite::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: radial-gradient(circle at center, #2c2d32 0%, #05070b 100%);
+    opacity: 0.431;
+} 
+
+#favourite h2 {
+    font-size: 58px;
+    color: #f8f6f1;
+    margin-bottom: 65px;
+}
+
+#favourite p {
+    max-width: 55%;
+    font-size: 25px;
+    line-height: 33px;
+    color: #f8f6f1;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#favourite div.line {
+    width: 162px;
+    height: 10px;
+    background-color: #fafafa;
+}
+#favourite div.container {
+    position: relative;
+}
+#favourite div.container .pizza-wrapper {
+    position: relative;
+    max-width: 1200px;
+    min-height: 640px;  
+}
+
+#favourite div.container .pizza-wrapper img.pizza-img {
+    width: 1024px;
+    height: 1029px;
+    position: absolute;
+    transform: rotate(126deg);
+    top: -20%;
+    left: -340px;
+}
+
+#favourite div.container .pizza-wrapper img.pizza-part {
+    width: 448px;
+    height: 391px;
+    position: absolute;
+    transform: rotate(120deg);
+    bottom: -140px;
+    left: -500px;
+}
+
+#favourite div.container img.pizza-leaves {
+    width: 1519px;
+    height: 840px;
+    position: absolute;
+    bottom: 370px;
+    left: -740px;
+
+}
+
+@media screen and (max-width:1200px) {
+    #favourite div.container .pizza-wrapper img.pizza-img {
+        width: 824px;
+        height: 829px;
+        top: -20%;
+        left: -220px;
+    }
+    
+    #favourite div.container .pizza-wrapper img.pizza-part {
+        width: 348px;
+        height: 291px;
+        bottom: 50px;
+        left: -320px;
+    }
+    
+    #favourite div.container img.pizza-leaves {
+        width: 1319px;
+        height: 640px;
+        bottom: 370px;
+        left: -700px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #favourite div.container .pizza-wrapper img.pizza-img {
+        width: 624px;
+        height: 629px;
+        top: -10%;
+        right: 5%;
+    }
+    
+    #favourite div.container .pizza-wrapper img.pizza-part {
+        width: 248px;
+        height: 191px;
+        bottom: 150px;
+        left: -310px;
+    }
+    
+    #favourite div.container img.pizza-leaves {
+        width: 1319px;
+        height: 640px;
+        bottom: 370px;
+        left: -700px;
+    }
+    #favourite h2 {
+        font-size: 48px;
+    }
+}

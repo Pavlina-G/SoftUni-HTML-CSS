@@ -1,0 +1,206 @@
+header {
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    /* overflow: hidden; */
+    
+}
+
+header::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: radial-gradient(circle at center, #2c2d32 0%, #05070b 100%);
+    opacity: 0.431;
+}
+
+header div.nav-bar {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 48px 46px;
+}
+
+header nav {
+    margin-right: 63px;
+    width: 550px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    font-size: 17px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+header .search-icon {
+    text-align: end;
+    font-size: 25px;
+}
+
+header .search-icon form {
+    width: 183px;
+    height: 51px;
+    position: relative;
+}
+
+header .search-icon form input {
+    width: 183px;
+    height: 51px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: none;
+}
+
+header .search-icon form button[type="submit"] {
+    width: 30%;
+    height: 51px;
+    border: none;
+    border-radius: 25px;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 40px;
+}
+
+header .search-icon button i {
+    font-size: 25px;
+    color: #343434;
+}
+
+header div.banner {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 95px;
+    padding-top: 5px;
+
+    
+}
+
+header div.banner .banner-text {
+    padding-top: 26px;
+    width: 42%;
+    min-height: 640px;
+    display: flex;
+    flex-direction: column;
+}
+
+header div.banner .banner-text img.logo {
+    width: 136px;
+    width: 156px;
+    height: 109px;
+    height: 159px;
+    margin-bottom: 35px;
+}
+
+header div.banner .banner-text h1 {
+    font-size: 92px;
+    color: #ffffff;
+    font-family: "Reey";
+    filter: drop-shadow(0px 5px 2.5px rgba(84, 82, 79, 0.22));
+    margin-bottom: 120px;
+}
+
+header div.banner .banner-text h2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Open Sans";
+    margin-bottom: 65px;
+}
+
+header div.banner .banner-text p {
+    width: 88%;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Open Sans";
+    hyphens: auto;
+    margin-bottom: 240px;
+}
+header div.banner .banner-images {
+    width: 58%;
+    position: relative;
+}
+header div.banner img.bg-pasta {
+    width: 632px;
+    height: 620px;
+    position: absolute;
+    top: 10%;
+    right:6%;
+}
+
+header div.banner img.bg-sauce {
+    width: 293px;
+    height: 290px;
+    position: absolute;
+    left: -3%;
+    bottom: 7%;
+
+}
+
+header div.banner img.bg-leaves {
+    width: 609px;
+    height: 478px;
+    position: absolute;
+    bottom: -15%;
+    right: -8%;
+    
+
+}
+
+@media screen and (max-width:1200px) {
+
+    header div.banner img.bg-pasta {
+        width: 562px;
+        height: 540px;
+        position: absolute;
+        top: 10%;
+        right:6%;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    header div.banner img.bg-pasta {
+        width: 342px;
+        height: 320px;
+        top: 7%;
+        right:25%;
+    }
+    header div.banner img.bg-sauce {
+        width: 293px;
+        height: 290px;
+        left: -3%;
+        top: 38%;
+    
+    }
+    header div.banner img.bg-leaves {
+        width: 609px;
+        height: 478px;
+        bottom: 4%;
+        left: 6%;
+        
+    
+    }
+}

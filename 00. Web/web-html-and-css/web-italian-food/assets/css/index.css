@@ -1,0 +1,86 @@
+@import url("./reset.css");
+
+@import url("./header.css");
+@import url("./menu.css");
+@import url("./about.css");
+@import url("./promo.css");
+@import url("./favourite.css");
+@import url("./testimonials.css");
+@import url("./subscribe.css");
+@import url("./footer.css");
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;            */
+
+body {
+    background-color: #ffffff;
+    overflow-x: hidden;
+    /* color: #fff; */
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+section {
+    padding: 40px;
+}
+
+h1,
+h2 {
+    font-family: 'Reey', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.white-btn {
+    opacity: 0.902;
+    width: fit-content;
+    text-transform: uppercase;
+    padding: 10px 36px;
+    border-radius: 21px;
+    background-color: #ffffff;
+    font-size: 25px;
+    color: #2e3034;
+    font-weight: 800;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.white-btn:hover{
+    background-color: #ffffffbe;
+}
+
+.black-btn {
+    width: 334px;
+    height: 75px;
+    border: none;
+    border-radius: 38px;
+    background-color: #343434;
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans";
+}
+.black-btn:hover {
+    background-color: #343434c2;
+}
+
+@media screen and (max-width:768px){
+    .black-btn {
+        width: 314px;
+        height: 55px;
+    }
+} 

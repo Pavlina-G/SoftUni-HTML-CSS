@@ -1,0 +1,124 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 38px;
+    justify-content: center;
+
+}
+
+#menu h2 {
+    font-size: 75px;
+    color: #222328;
+    margin-bottom: 75px;
+}
+
+#menu>p {
+    width: 55%;
+    font-size: 27px;
+    color: #2f3135;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+#menu .cards-wrapper .card img {
+    width: 320px;
+    height: 320px;
+    filter: drop-shadow(0px 25px 12px rgba(12, 13, 12, 0.35));
+    filter: drop-shadow(0px 19px 6.5px rgba(12, 13, 12, 0.38));
+    filter: drop-shadow(1.883px 26.934px 12px rgba(12, 13, 12, 0.3));
+    margin-bottom: 65px;
+}
+
+#menu .cards-wrapper {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+#menu .cards-wrapper .card {
+    display: flex;
+    flex: 1 1 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#menu .cards-wrapper .card .menu-info {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16%;
+}
+#menu .cards-wrapper .card .menu-info h3 {
+    font-size: 29px;
+    color: #343434;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-bottom: 20px;
+
+}
+
+#menu .cards-wrapper .card .menu-info p {
+    font-size: 23px;
+    color: #343434;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+
+
+@media screen and (max-width:1200px){
+    #menu h2 {
+        font-size: 65px;
+        color: #222328;
+        margin-bottom: 75px;
+    }
+    #menu>p {
+        width: 55%;
+        font-size: 22px;
+        margin-bottom: 90px;
+    }
+    
+}
+
+@media screen and (max-width:992px){
+    #menu h2 {
+        font-size: 55px;
+    }
+    #menu .cards-wrapper .card .menu-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+    #menu .cards-wrapper .card .menu-info p {
+        text-align: center;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    #menu h2 {
+        font-size: 50px;
+        color: #222328;
+        margin-bottom: 55px;
+    }
+    #menu>p {
+        width: 55%;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #menu .cards-wrapper {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    
+}

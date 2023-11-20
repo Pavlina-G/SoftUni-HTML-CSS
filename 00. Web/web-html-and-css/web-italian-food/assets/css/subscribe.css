@@ -1,0 +1,97 @@
+#subscribe {
+    position: relative;
+    background-color: #27292b;
+}
+#subscribe img {
+    position: absolute;
+    top: -6%;
+    left: -1%;
+}
+#subscribe div.container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 195px;
+    padding-bottom: 200px;
+}
+
+#subscribe div.container h2 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#subscribe div.container p {
+    /* width: 1811px;
+    height: 210px; */
+    max-width: 75%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#subscribe div.container form {
+    position: relative;
+}
+
+#subscribe div.container form input[type="email"] {
+    width: 768px;
+    height: 63px;
+    background-color: #ffffff;
+    padding-left: 30px;
+    border-radius: 32px;
+    border: none;
+}
+
+#subscribe div.container form input[type="email"]::placeholder {
+    opacity: 0.678;
+    font-size: 25px;
+    color: #54524f;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+#subscribe div.container form input[type="submit"] {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    border: none;
+    width: 222px;
+    height: 65px;
+    border-radius: 32px;
+    background-color: #54524f;
+    position: absolute;
+    right: 0;
+    border: none;
+}
+#subscribe div.container form input[type="submit"]:hover{
+    background-color: #54524fc3;
+}
+
+@media screen and (max-width:992px) {
+    #subscribe div.container form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    #subscribe div.container form input[type="email"] {
+        width: 568px;
+    }
+    
+    
+    #subscribe div.container form input[type="submit"] {
+        position: static;
+    }
+}

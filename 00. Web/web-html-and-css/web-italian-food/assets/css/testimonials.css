@@ -1,0 +1,75 @@
+#testimonials {
+    text-align: center;
+}
+
+#testimonials div.container {
+    padding-top: 126px;
+    justify-content: center;
+    margin-bottom: 220px;
+    flex-wrap: wrap;
+}
+
+#testimonials >p {
+    font-size: 25px;
+    color: #3f3f3f;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 0 260px;
+    hyphens: auto;
+    margin-bottom: 72px;
+}
+
+#testimonials  h3 {
+    font-size: 21px;
+    line-height: 33px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-bottom: 120px;
+}
+
+#testimonials div.container div.card-info {
+    display: flex;
+    flex: 1 1 30%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#testimonials div.container .card-info h2 {
+    font-size: 42px;
+    line-height: 33px;
+    color: #393939;
+    margin-bottom: 40px;
+}
+
+#testimonials div.container .card-info p {
+    max-width: 88%;
+    font-size: 19px;
+    line-height: 25px;
+    color: #333d42;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: left;
+}
+
+@media screen and (max-width:1200px) {
+    #testimonials div.container {
+        margin-bottom: 120px;
+    }
+    #testimonials >p {
+        padding: 0 160px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #testimonials div.container {
+        margin-bottom: 60px;
+    }
+    #testimonials >p {
+        padding: 0 60px;
+    }
+}
